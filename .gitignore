@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm
+.idea/
+*.iml
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Logs
+logs/
+*.log
+
+# Data (通常不需要上传巨大的数据集，除非很小)
+data/processed/
+data/raw/
+
+# Models (模型权重文件通常很大，不建议直接传GitHub)
+models/
+*.pt
+*.pth
+
+# Jupyter Notebook
+.ipynb_checkpoints
